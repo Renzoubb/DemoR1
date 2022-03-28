@@ -1,0 +1,9 @@
+
+{
+    "scripts": {
+        "test": "test",
+        "cypress:open":"cypress open",
+        "cypress:runChromeHeadless": "npx cypress run --headless --browser chrome --spec cypress/integration/inicial/todo.spec.js"
+    }
+}
+
